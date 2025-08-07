@@ -1,11 +1,7 @@
-import { Metadata } from "next";
+"use client";
+
 import { motion } from "framer-motion";
 import { CheckCircle, Award, Users, Code, Heart, Target } from "lucide-react";
-
-export const metadata: Metadata = {
-  title: "About - Karravula Chandra | Professional Software Developer",
-  description: "Learn about Karravula Chandra's journey in software development, expertise, and passion for creating exceptional digital solutions.",
-};
 
 const skills = [
   { name: "Frontend Development", level: 95 },
